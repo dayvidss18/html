@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    max-width: 100%;
+}
+body{
+    background: black;
+    min-height: 100vh;
+
+}
+.logo{
+    height: 70px;
+}
+.logo:hover{
+    height: 90px;
+    width: 90px;
+    transition: 0.7s;
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 10px;
+    background: linear-gradient(red,black);
+}
+.menu{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-right: 40px;
+    padding-top: 2em;
+}
+
+.elemento_menu{
+    font-size: 30px;
+    text-decoration: none;
+
+}
+.elemento_menu:hover{
+    font-size: 32px;
+    background-color: rgb(97, 5, 5);
+    transition: 2s;
+    border: 10px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 14px;
+}
+.a_menu{
+    text-decoration: none;
+    color: aliceblue;
+}
+.a_menu:hover{
+    padding: 10px;
+}
+.container_ryu{
+
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 200px;
+    padding: 60px;
+    border: 2px;
+    border-color: rgb(54, 5, 5);
+    border-style:solid;
+}
+.gif_ryu{
+    width: 500px;
+    height:480px;
+    border-color: rgb(70, 6, 6);
+    border-style: solid;
+    border-radius: 18px;
+}
+.gif_ryu:hover{
+    height: 520px;
+    width: 720px;
+    transition: 2.5s;
+    transition-delay: 0.5s;
+}
+.conteudo_ryu{
+    width: 700px;
+    height:480px;
+    color: white;
+    border-radius: 30px;
+    border-style:dotted;
+    border-color: aliceblue;
+
+}
+.titulo_ryu{
+    font-size: 48px;
+    text-align: center;
+    margin: 40px
+}
+.paragrafo_ryu{
+    text-align: center;
+    font-size: 18px;
+}
+
+.container_mk{
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:space-evenly;
+    gap: 200px;
+    padding: 40px;
+    border: 2px;
+    border-color: rgb(54, 5, 5);
+    border-style:solid;
+    align-items: center;
+}
+.imagem_mk{
+    width: 580px;
+    height: 480px;
+    border-color: red;
+    border-style: solid;
+    border-radius: 18px;
+
+}
+.imagem_mk:hover{
+    height: 520px;
+    width: 720px;
+    transition: 2.5s;
+}
+.conteudo_mk{
+    width: 700px;
+    height:580px;
+    color: white;
+    border-radius: 10px;
+    border-style:dotted;
+    border-color: aliceblue;
+}
+.titulo_mk{
+    font-size: 48px;
+    text-align: center;
+    margin: 40px
+}
+.paragrafo_mk{
+    text-align: center;
+    font-size: 18px;
+}
